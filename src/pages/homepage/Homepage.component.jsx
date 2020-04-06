@@ -1,7 +1,7 @@
 import React from "react";
+import { Route } from "react-router-dom";
 import "./homepage.styles.scss";
 import Directory from "../../components/directory/Directory.jsx";
-import MenuItem from "../../components/menu-item/MenuItem.jsx";
 
 const Homepage = () => {
   return (
