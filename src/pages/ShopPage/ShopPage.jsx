@@ -12,13 +12,12 @@ class ShopPage extends Component {
   }
   render() {
     const { collections } = this.state;
+    console.log(collections);
     return (
       <div className="shop-page">
-        {collections
-          .filter((item, idx) => idx < 4)
-          .map(({ id, ...otherCollectionProps }) => (
-            <CollectionPreview key={id} {...otherCollectionProps} />
-          ))}
+        {collections.map(({ id, ...otherCollectionProps }) => (
+          <CollectionPreview key={id} {...otherCollectionProps} />
+        ))}
       </div>
     );
   }
