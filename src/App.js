@@ -39,7 +39,6 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   render() {
-    console.log(this.props);
     return (
       <div>
         <Header />

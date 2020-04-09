@@ -10,7 +10,6 @@ import CheckoutItem from "../../components/checkout-item/CheckoutItem";
 import StripeButton from "../../components/stripe-button/StripeButton";
 
 const CheckoutPage = ({ cartItems, totalPrice }) => {
-  console.log(cartItems, totalPrice);
   return (
     <div className="checkout-page">
       <div className="checkout-header">

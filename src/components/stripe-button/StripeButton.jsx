@@ -5,7 +5,6 @@ const StripeButton = ({ price }) => {
   const priceForStripe = price * 100;
   const publishableKey = "pk_test_yJjo7HFBDfnz2CJveLZm0LTe00y7n8wIDo";
   const onToken = (token) => {
-    console.log(token);
     alert("Token Successful");
   };
   return (
